@@ -1,27 +1,60 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>forms</title>
-</head>
-<body>
+  </head>
+  <body>
     <form action="">
-        <input type="text"  placeholder="Enter Your Name" name="name" size="12" maxlength="10">
-        <input type="password"  placeholder="Enter Your Name" name="password" size="12" maxlength="10">
+      <input
+        type="text" required
+        placeholder="Enter Your Name"
+        name="name"
+        size="12"
+        maxlength="10"
+      />
+      <input
+        type="password"
+        placeholder="Enter Your Name"
+        name="password"
+        size="12"
+        maxlength="10"
+      />
 
-        <input type="email"  placeholder="Enter Your Name" name="name" size="12" maxlength="10">
-        <label for="html">HTML</label>
-        <input type="checkbox" name="skills" id="html" value="html">
+      <input
+        type="email"
+        placeholder="Enter Your Name"
+        name="name"
+        size="12"
+        maxlength="10"
+      />
+      <label  for="html">HTML</label>
+      <input type="checkbox" name="skills" id="html" value="html" />
 
-        <label for="css">css</label>
-        <input type="checkbox" name="skills" id="css" value="css" >        <label for="js">js</label>
-        <input type="checkbox" name="skills" id="js"  value="js">
+      <label for="css">css</label>
+      <input type="checkbox" name="skills" id="css" value="css" />
+      <label for="js">js</label>
+      <input type="checkbox" name="skills" id="js" value="js" />
 
-<label for="male">Male</label>
-<input type="radio" name="gender" value="male" id="male"> 
-<label for="female">Female</label>
-<input type="radio" name="gender" value="female" id="female"> 
+      <label for="male">Male</label>
+      <input type="radio" name="gender" value="male" id="male" />
+      <label for="female">Female</label>
+      <input type="radio" name="gender" value="female" id="female" />
+      <textarea name="comments" rows="10"></textarea>
+
+      <select name="country">
+        <option value="">select car</option>
+        <option value="corola">corola</option>
+        <option value="honda">honda</option>
+        <option value="suzuki">suzuki</option>
+        <option value="BYD">BYD</option>
+
+      
+      </select>
+        <button>login</button>
+        <br/>
+        <input type="submit" >
     </form>
-</body>
+  </body>
 </html>
